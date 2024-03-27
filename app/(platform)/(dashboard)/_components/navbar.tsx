@@ -17,7 +17,7 @@ export const Navbar = () => {
         <Button
           variant="primary"
           size="sm"
-          className="rounded-sm hidden md:block h-auto py-1.5 px-2"
+          className="rounded-md hidden md:block h-auto py-1.5 px-2"
         >
           Create
         </Button>
