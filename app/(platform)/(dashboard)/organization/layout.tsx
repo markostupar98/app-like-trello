@@ -13,3 +13,4 @@ const OrganizationLayout = ({ children }: { children: React.ReactNode }) => {
   );
 };
 export default OrganizationLayout;
+  
