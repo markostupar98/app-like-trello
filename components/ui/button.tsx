@@ -20,6 +20,8 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         primary:
           "bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full",
+        delete:
+          "text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900",
       },
       size: {
         default: "h-10 px-4 py-2",
