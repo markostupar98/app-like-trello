@@ -23,12 +23,14 @@ const buttonVariants = cva(
         delete:
           "text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900",
         transparent: "bg-transparent text-white hover:bg-white/20",
+        grey: "bg-neutral-200 text-secondary-foreground hover:bg-neutral-300",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
+        inline: "h-auto px-2 py-1.5 text-sm",
       },
     },
     defaultVariants: {
