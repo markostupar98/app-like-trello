@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
+import { Mail } from "lucide-react";
 
 export const Navbar = () => {
   return (
@@ -10,14 +11,10 @@ export const Navbar = () => {
         <Logo />
         <div className="space-x-4 md:block md:w-auto flex items-center justify-between w-full">
           <Button size="sm" variant="outline" asChild>
-            <Link href="/sign-in">
-              Login
-            </Link>
+            <Link href="/sign-in">Login</Link>
           </Button>
           <Button size="sm" asChild>
-            <Link href="/sign-up">
-              Sign up
-            </Link>
+            <Link href="/sign-up">Sign up</Link>
           </Button>
         </div>
       </div>

@@ -45,11 +45,11 @@ export const BoardList = async () => {
               role="button"
               className="aspect-video relative h-full w-full bg-muted hover:opacity-75 transition rounded-md flex flex-col gap-y-1 items-center justify-center"
             >
-              <p className="text-sm">Create new board</p>
-              <span className="text-sm">5 remaining</span>
+              <p className="text-sm">Create new</p>
+              <span className="text-sm">board</span>
               <Hint
                 sideOffset={40}
-                description={`Free workspaces. Can have up to 5 open boards. For unlimited board you need to subscribe`}
+                description={`You can click here to create board or you can click create button next to my github account`}
               >
                 <HelpCircle className="absolute bottom-2 right-2 h-[14px] w-[14px] " />
               </Hint>
